@@ -9,11 +9,6 @@ Use console.log() to write the proper output to the command line.
 
 **/
 
-const fizzbuzz = () => {
-  // Add your code here
-};
-
-fizzbuzz();
 // 1
 // 2
 // fizz
