@@ -133,9 +133,9 @@ $ git push <remote> <branchname>
 
 4. When your code is pushed to the remote, you will see a link to the PR in the commnand line. Alternatively, you can open the remote repository on GitHub and search for your PR in the "Pull requests" tab. 
 
-5. Add two students from the discussion group as reviewers on the pull request.
+5. Add the students from your Canvas discussion group as reviewers on the pull request.
 
-   In the description textarea, make sure to explain what changes you made, why you made those changes, and what feedback you are looking for.
+   In the PR description, make sure to explain what changes you made, why you made those changes, and what feedback you are looking for.
 
 ### Required Reading
 
