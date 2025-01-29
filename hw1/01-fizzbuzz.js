@@ -9,6 +9,8 @@ Use console.log() to write the proper output to the command line.
 
 **/
 
+// Output:
+//
 // 1
 // 2
 // fizz
@@ -25,3 +27,5 @@ Use console.log() to write the proper output to the command line.
 // 14
 // fizzbuzz
 // ...
+
+// add more stuff here
