@@ -22,3 +22,13 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 
 **/
+
+let array = [2, 3, 5, 7, 8];
+let target = 12;
+for (let i = 0; i < array.length; i++) {
+  for (let j = 0; j < array.length && j != i; j++) {
+    if (array[i] + array[j] == target) {
+      console.log(`(${i}, ${j})`);
+    }
+  }
+}
