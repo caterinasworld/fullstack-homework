@@ -26,3 +26,25 @@ Input: n = 15
 Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
 
 **/
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Input: n = ", (i) => {
+  if (i % 3 == 0) {
+    if (i % 5 == 0) {
+      console.log("FizzBuzz");
+    } else {
+      console.log("Fizz");
+    }
+  } else if (i % 5 == 0) {
+    console.log("Buzz");
+  } else {
+    console.log(`${i}`);
+  }
+  rl.close();
+});
