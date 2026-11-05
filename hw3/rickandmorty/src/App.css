@@ -1,0 +1,95 @@
+header {
+  background: #183d32;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.character-card {
+  overflow: hidden;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.character-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-details {
+  padding: 16px;
+}
+
+.card-details h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.species-group {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.species-group h2 {
+  margin-top: 0;
+}
+
+.species-group ul {
+  columns: 3 200px;
+  padding-left: 20px;
+}
+
+.location-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.location-table caption {
+  margin-bottom: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.location-table th,
+.location-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.location-table thead {
+  background: #183d32;
+  color: white;
+}

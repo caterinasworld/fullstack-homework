@@ -1,0 +1,25 @@
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  border: 1px solid #777;
+  background: white;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.game-info li {
+  margin-bottom: 8px;
+}
